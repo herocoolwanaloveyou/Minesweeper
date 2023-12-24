@@ -1,0 +1,159 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Item">
+      <UniqueIdentifier>{92e53552-3966-463e-83a2-55207f966869}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\game">
+      <UniqueIdentifier>{9475d59a-d74b-4afa-b0ed-9ad3585edc39}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Item_source">
+      <UniqueIdentifier>{4330a7f0-70cc-4006-bcaa-6aaa78a38691}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Item_source\shape">
+      <UniqueIdentifier>{c0715cb5-5a44-4446-a5ca-80f0dd4db42a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\icon">
+      <UniqueIdentifier>{bf48a780-24a6-45b1-8a4d-d792c0cd0138}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="background.h">
+      <Filter>Header Files\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="Co.h">
+      <Filter>Header Files\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="Min.h">
+      <Filter>Header Files\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="circle.h">
+      <Filter>Header Files\Item_source\shape</Filter>
+    </ClInclude>
+    <ClInclude Include="Hcn.h">
+      <Filter>Header Files\Item_source\shape</Filter>
+    </ClInclude>
+    <ClInclude Include="Hcn_color.h">
+      <Filter>Header Files\Item_source\shape</Filter>
+    </ClInclude>
+    <ClInclude Include="Omin.h">
+      <Filter>Header Files\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="Banco.h">
+      <Filter>Header Files\game</Filter>
+    </ClInclude>
+    <ClInclude Include="DoMinView.h">
+      <Filter>Header Files\game</Filter>
+    </ClInclude>
+    <ClInclude Include="DoMin.h">
+      <Filter>Header Files\Item_source</Filter>
+    </ClInclude>
+    <ClInclude Include="DoMinDoc.h">
+      <Filter>Header Files\Item_source</Filter>
+    </ClInclude>
+    <ClInclude Include="framework.h">
+      <Filter>Header Files\Item_source</Filter>
+    </ClInclude>
+    <ClInclude Include="MainFrm.h">
+      <Filter>Header Files\Item_source</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>Header Files\Item_source</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Header Files\Item_source</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files\Item_source</Filter>
+    </ClInclude>
+    <ClInclude Include="circle_color.h">
+      <Filter>Header Files\Item_source\shape</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="DoMin.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MainFrm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DoMinDoc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DoMinView.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Hcn.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Omin.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Banco.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Co.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Min.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="circle.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Hcn_color.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="background.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="circle_color.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\DoMin.ico">
+      <Filter>Resource Files\icon</Filter>
+    </Image>
+    <Image Include="res\DoMinDoc.ico">
+      <Filter>Resource Files\icon</Filter>
+    </Image>
+    <Image Include="Min.bmp">
+      <Filter>Resource Files\icon</Filter>
+    </Image>
+    <Image Include="res\Toolbar.bmp">
+      <Filter>Resource Files\icon</Filter>
+    </Image>
+    <Image Include="res\Toolbar256.bmp">
+      <Filter>Resource Files\icon</Filter>
+    </Image>
+    <Image Include="res\userimages.bmp">
+      <Filter>Resource Files\icon</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="DoMin.rc">
+      <Filter>Resource Files\icon</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\DoMin.rc2">
+      <Filter>Resource Files\icon</Filter>
+    </None>
+  </ItemGroup>
+</Project>
